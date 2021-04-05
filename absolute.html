@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Document</title>
+    <style>
+
+
+
+        body{
+            background-color: #222;
+            height: px;
+        }
+        .parent{
+           /* border: 2px solid orange;
+            padding: 10px;
+            display: inline-block;*/
+        }
+        .parent div {
+            width: 100px;
+            height: 100px;
+        }
+        .parent .child-1{
+            background-color:#555 ;
+            position: absolute;
+            left: 120px;
+            bottom: 500px;
+            z-index: 1;
+    
+            
+        }
+        .parent .child-2{
+            background-color: #888;
+            position: absolute;
+            left: 60px;
+            bottom: 550px;
+        
+        
+            
+            
+            
+            
+
+
+
+        }
+        .parent .child-3{
+            background-color:#bbb ;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index: -1;
+            
+
+        }
+    </style>
+
+
+
+
+
+
+
+</head>
+<body>
+    <!--hw-1 Atit elementul html cit si body au inaltimea proprietatii css setate la auto.
+    inaltimea lui body se va intinde pe tot view-ul paginei 100%-->
+
+
+    <div class="parent">
+<div class="child-1">1</div>
+    <div class="child-2">2</div>
+    <div class="child-3">3</div>
+</div>
+
+
+</body>
+</html>
